@@ -15,7 +15,15 @@ Using the slicing concept rotate the list
 ### Step 5: 
 ### Step 6: 
 ## Program:
-
+    def circulate():
+        list1=eval(input())
+        count=int(input())
+        for i in range(count):
+            list1.append(list1[0])
+            list1.pop(0)
+        print("After circulating the values are:",list1)
+        return
 ## Output:
+<img width="1289" height="510" alt="image" src="https://github.com/user-attachments/assets/8ce18fb6-3d73-497f-932e-1a0323973ec9" />
 
 ## Result:
